@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wicklow Accommodations and Dining</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Nav Element -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-success bg-gradient fixed-top"> 
+      <div class="container-fluid">        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span class="navbar-toggler-icon"></span> 
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNav"> 
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-justified w-100"> 
+            <li class="nav-item"> 
+              <a class="nav-link text-white" href="index.html">Home</a> 
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link text-white" href="history.html">History</a>
+            </li> 
+            <li class="nav-item"> 
+              <a class="nav-link text-white" href="sites.html">Sites</a> 
+            </li> 
+            <li class="nav-item"> 
+              <a class="nav-link active" href="stay.html">Stay / Eat</a> 
+            </li> 
+            <li class="nav-item"> 
+              <a class="nav-link text-white" href="amenities.html">What To Do</a> 
+            </li> 
+            <li class="nav-item"> 
+              <a class="nav-link text-white" href="contact.html">Contact</a> 
+            </li> 
+            <li class="nav-item"> 
+              <a class="nav-link text-white" href="cart.html"><i class="fas fa-shopping-cart"></i></a> 
+            </li> 
+          </ul> 
+        </div> 
+      </div> 
+    </nav>
+
+    <!-- Title Container -->
+    <div class="container-fluid py-4 bg-light bg-gradient text-center">
+      <h2 id="stay-eat-text">Eat, Drink, Stay</h2>
+    </div>
+
+    <!--Knockrobin Glamping Container-->
+    <div class="container-fluid bg-light bg-gradient mb-1 text-center">
+      <div class="row">
+        <div class="col-12 col-sm-6 glamping-text align-content-center">
+          <h2 id="glamping-heading">Knockrobin Glamping</h2>
+          <p class="stay-paragraphs">
+            Located on the grounds of Tinakilly Country House Hotel, Knockrobin glamping 
+            offers a luxury experience combined with a great location.<br>
+            5 minutes from Wicklow Town, guests at Knockrobin Glamping 
+            will be in close proximity to all Wicklow has to offer.<br>
+            Click 'Buy Now' below to purchase 1 night in a beautiful family bell tent.<bR>
+            Price: €155
+          </p>
+          <button type="button" class="btn btn-danger mb-2 buy-now" data-item="Knockrobin Glamping Family Tent (1 Night)" 
+          data-image="./images/glamping.jpg" data-price="€155">Buy Now</button>
+          <a class="btn btn-info mb-2 text-white bg-gradient" href="https://knockrobinglamping.com" target="blank" role="button">Learn More</a>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img src="./images/glamping.jpg" class="img-fluid glamping-image">
+          <figcaption>A Family Size Bell Tent @ Knockrobin Glamping</figcaption>
+        </div>       
+      </div>
+    </div>
+
+    <!--River Valley Container-->
+    <div class="container-fluid bg-light bg-gradient mb-1 text-center">
+      <div class="row">       
+        <div class="col-12 col-sm-6 glamping-text align-content-center">
+          <h2 id="glamping-heading">River Valley Holiday Park</h2>
+          <p class="stay-paragraphs">
+            Located in the beautiful village of Redcross, River Valley offers a fun and engaging holiday destination.
+            With crazy golf, pool tables, kids camps, remote control cars and racetracks, River Valley has everything 
+            to keep your kids entertained. <br>For couples looking for a getaway location, there is the "Secret Garden", 
+            removed from the hustle and bustle of the family activities. There are numerous accomodation options available, 
+            from mobile homes, to wood cabins, to luxury tents.<br>
+            Click 'Buy Now' below to purchase a one night stay in a luxurious 2 bed mobile home.<br> Price: €125 
+          </p>
+          <button type="button" class="btn btn-danger mb-2 buy-now" data-item="2 Bed Mobile Home @ River Valley (1 Night)" 
+          data-image="./images/river-valley-main2.jpg" data-price="€125">Buy Now</button>
+          <a class="btn btn-info mb-2 text-white bg-gradient" href="https://www.rivervalleypark.ie/" target="blank" role="button">Learn More</a>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img src="./images/river-valley-main2.jpg" class="img-fluid glamping-image" alt="caravan-park">
+          <figcaption>Mobile Homes @ River Valley Holiday Park</figcaption>
+        </div>
+      </div>
+    </div>
+
+    <!--Restaurant Container-->
+    <div class="container-fluid bg-light mt-1 p-3 text-center align-content-center overflow">
+      <h2 id="restaurant-heading">Top 3 Places to Eat in Wicklow</h2>
+      <div class="row mt-2">
+        <div class="col-12 col-sm-4 sparrow-col" data-aos="fade-up-right" data-aos-duration="1000">
+          <h4 class="restaurant-titles">Sparrow's Nest</h4>
+          <img src="./images/Sparrow's nest.jpg" alt="Sparrow's nest exterior" class="img-fluid restaurant-image">
+          <p>
+            The jewel of Wicklow's Market Square, The Sparrow's Nest has lunch and dinner offerings 
+            that pay tribute to both traditional and modern cuisine. Opened during the pandemic, this gem
+            has quickly become a favourite amongst locals.
+          </p>
+          <a class="btn btn-info mb-2 text-white bg-gradient" href=https://www.facebook.com/people/Sparrows-Nest/100057411161002/ target="blank" role="button">Learn More</a>
+        </div>
+        <div class="col-12 col-sm-4 chester-col" data-aos="fade-up" data-aos-duration="1000">
+          <h4 class="restaurant-titles">Chester Beatty Inn</h4>
+          <img src="./images/Chester's.jpg" alt="Chester Beatty's exterior" class="img-fluid restaurant-image">
+          <p>
+            A fixture of Wicklow history, Chester Beatty's Inn has stood proudly since the early 1800s.<br> 
+            A family-run business, Chester's passion for great food and atmosphere makes for a fantastic dining experience.
+          </p>
+          <a class="btn btn-info mb-2 text-white bg-gradient" href="https://www.chesters.ie/" target="blank" role="button">Learn More</a>
+        </div>
+        <div class="col-12 col-sm-4 heather-col" data-aos="fade-up-left" data-aos-duration="1000">
+          <h4 class="restaurant-titles">The Wicklow Heather</h4>
+          <img src="./images/Wicklow Heather.jpg" alt="Wicklow Heather exterior" class="img-fluid restaurant-image">
+          <p>
+            Established over 50 years ago, The Wicklow Heather offers a unique dining experience. 
+            The restaurant's cozy and welcoming atmosphere, combined with professional service, makes 
+            it the perfect spot to relax and enjoy a meal with family or friends,
+          </p>
+          <a class="btn btn-info mb-2 text-white bg-gradient" href="https://wicklowheather.ie/home/" target="blank" role="button">Learn More</a> 
+        </div>
+      </div>
+    </div>
+
+    <footer class="p-2 bg-secondary bg-gradient text-white">
+      <a href="https://www.facebook.com/visitwicklow/" class="social-tags" target="_blank"><i class="fa-brands fa-facebook"></i></a> | 
+      <a href="https://www.twitter.com/visitwicklow/" class="social-tags" target="_blank"><i class="fa-brands fa-twitter"></i></a>  |
+      <a href="https://www.instagram.com/visitwicklow/?hl=en" class="social-tags" target="_blank"><i class="fa-brands fa-instagram"></i></a> |
+      <a href="https://www.youtube.com/user/wicklowtourism" class="social-tags" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <p>Copyright &copy; 2024 Stephen Acres</p>        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>
